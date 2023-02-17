@@ -143,9 +143,9 @@ LOGIN_REDIRECT_URL = "blog:list"
 LOGIN_URL = "login"
 
 
-AWS_STORAGE_BUCKET_NAME = 'melis-blog-awscapstones' # please enter your s3 bucket name
-AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
-AWS_S3_REGION_NAME = "us-east-1" # please enter your s3 region 
+AWS_STORAGE_BUCKET_NAME = 'myblogs3' # please enter your s3 bucket name
+AWS_S3_CUSTOM_DOMAIN = 'https://myblogs3.s3.ap-south-1.amazonaws.com' # AWS_STORAGE_BUCKET_NAME
+AWS_S3_REGION_NAME = "ap-south-1a" # please enter your s3 region 
 AWS_DEFAULT_ACL = 'public-read'
 
 AWS_LOCATION = 'static'
